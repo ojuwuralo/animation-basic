@@ -1,0 +1,29 @@
+body{
+  background-color: #a3bded;
+}
+h1 {
+  color: red;
+  text-align: center;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 400px;}
+}
+
+div {
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+#div1 {animation-timing-function: linear;
+background-color: turquoise;}
+#div2 {animation-timing-function: ease; background-color: hotpink;}
+#div3 {animation-timing-function: ease-in; background-color: crimson;}
+#div4 {animation-timing-function: ease-out; background-color: yellow;}
+#div5 {animation-timing-function: ease-in-out; background-color: olive;}
